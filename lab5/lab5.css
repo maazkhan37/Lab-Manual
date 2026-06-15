@@ -1,0 +1,93 @@
+/* Element Selector */
+h1 {
+    color: navy;
+}
+
+p {
+    color: darkslategray;
+}
+
+/* ID Selector */
+#main-title {
+    text-align: center;
+    color: darkred;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: gold;
+    padding: 5px;
+}
+
+/* Grouping Selector */
+h2, p, li {
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Descendant Selector */
+div p {
+    font-style: italic;
+    color: blue;
+}
+
+/* Child Selector */
+div > ul > li {
+    color: brown;
+}
+
+/* Attribute Selector */
+input[type="email"] {
+    background-color: lightblue;
+}
+
+input[type="password"] {
+    background-color: lightpink;
+}
+
+/* Pseudo-class */
+a:hover {
+    color: red;
+}
+
+li:first-child {
+    font-weight: bold;
+    color: green;
+}
+
+li:last-child {
+    font-weight: bold;
+    color: orange;
+}
+
+/* Pseudo-element */
+#main-title::before {
+    content: "Web Development Lab - ";
+}
+
+#main-title::after {
+    content: " - UET";
+}
+
+p::first-letter {
+    font-size: 24px;
+    color: purple;
+}
+
+/* Extra styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.section {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+img {
+    width: 250px;
+    border: 3px solid black;
+}
